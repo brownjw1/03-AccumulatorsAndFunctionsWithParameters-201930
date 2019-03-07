@@ -134,6 +134,11 @@ def run_test_digits_in_cube():
     print('-----------------------------------------------------')
     print('Testing the   digits_in_cube   function:')
     print('-----------------------------------------------------')
+    # Test 1:
+    expected=8  #125, so 1+2+5
+    answer=digits_in_cube(5)
+    print('Test 1 expected: '+expected)
+    print('     Actual: ' + answer)
 
 
 def digits_in_cube(n):
